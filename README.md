@@ -1,8 +1,8 @@
-# string-brackets-and-or
+# string-brackets-and-or-jeval
 
 Select all string by ignoreing brackets,"AND" and "OR" and process on that string as your reqirenment. 
 
-string-bracket-and-or, release 1.0 (Feb 2016)
+string-bracket-and-or-jeval, release 1.0 (Feb 2016)
 ----------------------------------------------
 
 ****INTRODUCTION****
