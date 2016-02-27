@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>String-brackets-and-or by ervivekmehta</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>String-brackets-and-or</h1>
+        <p>Select all string by ignoreing brackets,&quot;AND&quot; and &quot;OR&quot; and process on that string as your reqirenment.</p>
+
+        <p class="view"><a href="https://github.com/ervivekmehta/string-brackets-and-or">View the Project on GitHub <small>ervivekmehta/string-brackets-and-or</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/ervivekmehta/string-brackets-and-or/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/ervivekmehta/string-brackets-and-or/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/ervivekmehta/string-brackets-and-or">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="string-brackets-and-or" class="anchor" href="#string-brackets-and-or" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>string-brackets-and-or</h1>
+
+<p>Select all string by ignoreing brackets,"AND" and "OR" and process on that string as your reqirenment. </p>
+
+<h2>
+<a id="string-bracket-and-or-release-10-feb-2016" class="anchor" href="#string-bracket-and-or-release-10-feb-2016" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>string-bracket-and-or, release 1.0 (Feb 2016)</h2>
+
+<p>*<strong><em>INTRODUCTION</em></strong>*</p>
+
+<p>This simple logic can help to use string while we have string with AND OR and () brackets.
+so for that we can easily use string by splitting AND,OR,(,) but after use of string If we wanted to replace it as it as with proper brackets then it'll create confusion.</p>
+
+<p>This library is developed with JEval to create JEval expression from normal query string to match with some message.</p>
+
+<p>*<strong><em>EXAMPLE</em></strong>*</p>
+
+<p>For Example we have one user define syntex query like: (((Microsoft AND Windows) OR Server) AND (2008 OR R2) OR Enterprise)</p>
+
+<p>and we have message with full details of anyting. now we want to check that user query data is available in our message or not by creating JEval expression.</p>
+
+<p>then we can get output like this to evalute in JEval:
+(((indexOf('Enterprise','Microsoft',0)!=-1 &amp;&amp; indexOf('Enterprise','Windows',0)!=-1) || indexOf('Enterprise','Server',0)!=-1) &amp;&amp; (indexOf('Enterprise','2008',0)!=-1 || indexOf('Enterprise','R2',0)!=-1) || indexOf('Enterprise','Enterprise',0)!=-1)</p>
+
+<p>This is the simplest way to use this logic, you also can customize it as you requires.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/ervivekmehta">ervivekmehta</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
